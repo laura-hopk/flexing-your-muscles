@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -19,11 +21,11 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
   padding: 1.5rem 0;
-  padding: 1em 0;
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
-  color: #005e76
+  color: #005e76;
 }
 
 .footer h2 {
@@ -47,11 +49,13 @@ img {
 }
 
 .social {
-  margin: 0 .5em;
+  padding: 0 1rem;
+  margin-left: auto;
   display: flex;
 }
 
 .social > li {
+  margin: 0 .5em;
   width: 3em;
 }
 
